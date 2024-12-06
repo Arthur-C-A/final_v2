@@ -1,0 +1,48 @@
+--- INVENTARIO DISPOSITIVOS ---
+
+
+Es un: Smartphone
+ID: 11
+Hora Acumulada: 4
+Tamanio de Pantalla: 4.0
+Bateria mAh: 4.0
+
+Es un: Tablet
+ID: 15
+Hora Acumulada: 4
+Resolucion de Pantalla: 1920x1080
+Es un: Smartphone
+ID: 12
+Hora Acumulada: 4
+Tamanio de Pantalla: 4.0
+Bateria mAh: 8.0
+
+Es un: Smartphone
+ID: 135
+Hora Acumulada: 4
+Tamanio de Pantalla: 4.0
+Bateria mAh: 2.0
+
+Es un: Smartphone
+ID: 110
+Hora Acumulada: 4
+Tamanio de Pantalla: 4.0
+Bateria mAh: 1.0
+
+Es un: Smartphone
+ID: 1111
+Hora Acumulada: 4
+Tamanio de Pantalla: 4.0
+Bateria mAh: 0.0
+
+Es un: Smartphone
+ID: 113
+Hora Acumulada: 4
+Tamanio de Pantalla: 4.0
+Bateria mAh: 0.4
+
+Es un: Smartphone
+ID: 9
+Hora Acumulada: 12
+Tamanio de Pantalla: 4.0
+Bateria mAh: 2.3
