@@ -13,19 +13,25 @@ public class Main {
         inventario.agregarDispositivo(new Smartphone(1111,4,0,4));
         inventario.agregarDispositivo(new Smartphone(113,4,0.4,4));
         inventario.agregarDispositivo(new Smartphone(9,12,2.3,4));
-        try {
-            FileWriter fw = new FileWriter("informe_dispositivos.txt");
-            fw.write("--- INVENTARIO DISPOSITIVOS ---\n"+inventario.imprimirDatos());
+        Main.escribirArchivo(inventario);
+        inventario.listarNombreDispositivos();
+        inventario.getNombresDispositivos();
+        inventario.agregarDispositivo(new Smartphone(11,4,4,4));
+        inventario.mostrarDispositivo(9999);
+    }
+
+    public static void escribirArchivo(Inventario inventario){
+        String ruta = "informe_dispositivos.txt";
+        String datos = "--- INVENTARIO DISPOSITIVOS ---\n"+inventario.imprimirDatos();
+        FileWriter fw = null;
+        try{
+            fw = new FileWriter(ruta);
+            fw.write(datos);
             fw.close();
-            inventario.listarNombreDispositivos();
-            inventario.getNombresDispositivos();
-            inventario.agregarDispositivo(new Smartphone(11,4,4,4));
-            inventario.mostrarDispositivo(9999);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }finally {
-            System.out.println("Programa Finalizado");
+            System.out.println("Metodo Finalizado");
         }
-
     }
 }
